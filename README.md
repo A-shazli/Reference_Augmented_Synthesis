@@ -30,6 +30,6 @@ h5 formate is used to store and load the data.
 
 ```bash
 #### Training
-python train.py tags='SynthRAD_RbG'
+python train.py tags='SynthRAD_ras'
 ```
 Tags can be edited accordingly to switch for example between the different attention types. (MEA (Memory efficient attention) or Softmax)
