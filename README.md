@@ -32,4 +32,4 @@ h5 formate is used to store and load the data.
 #### Training
 python train.py tags='SynthRAD_ras'
 ```
-Tags can be edited accordingly to switch for example between the different attention types. (MEA (Memory efficient attention) or Softmax)
+Tags can be edited accordingly to switch for example between the different attention types. (MEA (Memory efficient attention) or Softmax {inspect the yaml files})
