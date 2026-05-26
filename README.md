@@ -10,12 +10,13 @@
 - `Pytorch-lighting` + `Hydra` + `Tensorboard` was used for experiment-tracking
 
 
-## 2. Dataset
+## 2. Dataset and Preprocessing
 #### Dataset 
 Grand challenge ['SynthRAD 2023'](https://synthrad2023.grand-challenge.org/) Brain CBCT, CT
 
 #### Preprocessing
 - CT & CBCT: 
+  - Style transfer (domain gap reduction) of CBCT to sCT — [Code & Models](https://github.com/A-shazli/CBCT-CT)
   - Non-local means denoising 
   - Histogram Equalization 
   - -1 ~ 1 minmax norm whole patient
