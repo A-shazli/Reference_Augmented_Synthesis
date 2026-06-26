@@ -34,3 +34,8 @@ h5 formate is used to store and load the data.
 python train.py tags='SynthRAD_ras'
 ```
 Tags can be edited accordingly to switch for example between the different attention types. (MEA (Memory efficient attention) or Softmax {inspect the yaml files})
+
+## MISC
+SynthRAD SMU-Medvision reimplementoin: https://github.com/danny4159/RegistFormer_develop/blob/main/src/models/unetplusplus_synthesis_module.py
+
+SynthRAD FAYIU reimplementoin: https://github.com/danny4159/RegistFormer_develop/blob/main/src/models/swinunetr_synthesis_module.py
