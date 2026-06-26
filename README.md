@@ -35,7 +35,8 @@ python train.py tags='SynthRAD_ras'
 ```
 Tags can be edited accordingly to switch for example between the different attention types. (MEA (Memory efficient attention) or Softmax {inspect the yaml files})
 
-## MISC
-SynthRAD SMU-Medvision reimplementoin: https://github.com/danny4159/RegistFormer_develop/blob/main/src/models/unetplusplus_synthesis_module.py
+## Miscellaneous
 
-SynthRAD FAYIU reimplementoin: https://github.com/danny4159/RegistFormer_develop/blob/main/src/models/swinunetr_synthesis_module.py
+Reimplementations of the SynthRAD2023 challenge baselines:
+- SMU-MedVision: [unetplusplus_synthesis_module.py](https://github.com/danny4159/RegistFormer_develop/blob/main/src/models/unetplusplus_synthesis_module.py)
+- FAYIU: [swinunetr_synthesis_module.py](https://github.com/danny4159/RegistFormer_develop/blob/main/src/models/swinunetr_synthesis_module.py)
