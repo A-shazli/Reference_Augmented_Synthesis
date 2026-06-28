@@ -1,0 +1,53 @@
+{
+  "test": {
+    "total_patients": 39,
+    "institutions": {
+      "A": {
+        "count": 13,
+        "percentage": 33.33
+      },
+      "B": {
+        "count": 13,
+        "percentage": 33.33
+      },
+      "C": {
+        "count": 13,
+        "percentage": 33.33
+      }
+    }
+  },
+  "train": {
+    "total_patients": 126,
+    "institutions": {
+      "A": {
+        "count": 42,
+        "percentage": 33.33
+      },
+      "B": {
+        "count": 42,
+        "percentage": 33.33
+      },
+      "C": {
+        "count": 42,
+        "percentage": 33.33
+      }
+    }
+  },
+  "val": {
+    "total_patients": 15,
+    "institutions": {
+      "A": {
+        "count": 5,
+        "percentage": 33.33
+      },
+      "B": {
+        "count": 5,
+        "percentage": 33.33
+      },
+      "C": {
+        "count": 5,
+        "percentage": 33.33
+      }
+    }
+  }
+}
